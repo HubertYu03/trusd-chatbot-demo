@@ -1,0 +1,1 @@
+ALTER TABLE "schoolResource" ADD COLUMN "schoolName" text NOT NULL;

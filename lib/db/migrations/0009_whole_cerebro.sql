@@ -1,0 +1,1 @@
+CREATE INDEX "embeddingIndex" ON "schoolEmbeddings" USING hnsw ("embedding" vector_cosine_ops);
