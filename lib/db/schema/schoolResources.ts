@@ -47,6 +47,12 @@ export const insertSchoolResourceSchema = createSelectSchema(schoolResources)
     updatedAt: true,
   });
 
+export const insertSchoolResourcesSchema = z.array(insertSchoolResourceSchema);
+
 export type NewSchoolResourceParams = z.infer<
   typeof insertSchoolResourceSchema
+>;
+
+export type NewSchoolResourceListParams = z.infer<
+  typeof insertSchoolResourcesSchema
 >;

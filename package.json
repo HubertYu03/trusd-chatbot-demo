@@ -16,7 +16,8 @@
     "db:studio": "drizzle-kit studio",
     "db:check": "drizzle-kit check",
     "scrape:school": "tsx crawler/school/route.ts",
-    "db-action:school": "tsx lib/actions/db-actions/addSchools.ts"
+    "db-action:school": "tsx lib/actions/db-actions/addSchools.ts",
+    "test:Allison": "tsx scripts/tests/AllisonElementary.ts"
   },
   "dependencies": {
     "@ai-sdk/react": "^3.0.19",
@@ -29,6 +30,7 @@
     "nanoid": "^5.1.6",
     "next": "16.1.1",
     "playwright": "^1.57.0",
+    "postgres": "^3.4.8",
     "react": "19.2.3",
     "react-dom": "19.2.3",
     "zod": "^4.3.5"

@@ -38,4 +38,4 @@ export const insertSchoolPhoneSchema = createSelectSchema(schoolPhones)
     updatedAt: true,
   });
 
-export type NewSchoolResourceParams = z.infer<typeof insertSchoolPhoneSchema>;
+export type NewSchoolPhoneParams = z.infer<typeof insertSchoolPhoneSchema>;

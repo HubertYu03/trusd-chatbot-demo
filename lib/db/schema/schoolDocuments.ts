@@ -46,6 +46,6 @@ export const insertSchoolDocumentSchema = createSelectSchema(schoolDocuments)
     resourceId: string().optional(),
   });
 
-export type NewSchoolResourceParams = z.infer<
+export type NewSchoolDocumentParams = z.infer<
   typeof insertSchoolDocumentSchema
 >;
